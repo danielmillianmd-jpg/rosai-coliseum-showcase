@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="media/rosai_logo.png" width="90" alt="RosAI logo" />
+<img src="media/rosai_logo.png" width="92" alt="RosAI Coliseum logo" />
 
 # RosAI Coliseum
 
@@ -11,7 +11,13 @@
 [![AI](https://img.shields.io/badge/AI-Claude_Powered-8A2BE2?style=for-the-badge)](#)
 [![Scale](https://img.shields.io/badge/Codebase-24k%2B_lines-blue?style=for-the-badge)](#)
 
-*A showcase repository — screenshots and overview. Source code is private (commercial product).*
+<br/>
+
+<a href="media/Intro_RosAI.mp4"><img src="media/Intro_RosAI_poster.png" width="760" alt="RosAI Coliseum — click to play the overview video" /></a>
+
+### ▶ [Watch the 20-second tour](media/Intro_RosAI.mp4)
+
+<sub>*A showcase repository — screenshots and overview. Source code is private (commercial product).*</sub>
 
 </div>
 
@@ -40,10 +46,13 @@ The name is a nod to *Rosai & Ackerman*-era surgical pathology tradition, reimag
 ## Highlights
 
 - 🧪 **Adaptive Q-Bank** — multi-layer questions with per-distractor reasoning
+- 🔍 **Global search** — one query across questions, images, flashcards, notes, and explanations
 - 🤖 **AI Tutor & Image Analyzer** — Claude-powered explanations and image read-outs
 - ☁️ **Study Cloud** — explanations tailored to *your specific* wrong answer, with a visual "misconception map"
 - 🩸 **HemePath workspace** — WHO 5th-edition diagnostic worksheets across 130+ entities
+- 🔬 **Cell Counter** — interactive blood-smear differentials with AI-assisted classification
 - 📊 **Flow Cytometry Analyzer** — interactive dot-plot gating, marker atlas, and case library (B-ALL, CLL, AML, APL, FL, normal marrow)
+- 📚 **Built-in references** — WHO Blue Books and a categorized lecture library inside the app
 - 🎭 **SlideLies game** — the AI describes a slide; you call *BS* or *Concur* — gamified pattern recognition
 - ⌨️ **Command Palette (Ctrl+K)** — instant navigation across every module
 
@@ -51,28 +60,36 @@ The name is a nod to *Rosai & Ackerman*-era surgical pathology tradition, reimag
 
 ## Feature tour
 
-### Dashboard
-A unified home for every study module.
+### Whole-slide image viewer
+The built-in viewer pans and zooms full Aperio slides right beside a live quiz question — image-based reasoning without ever leaving the question.
 
-![Dashboard](media/Dashboard%20New%20UI.png)
+<div align="center">
 
-### Quiz interface
-Clean, distraction-free question layout with adaptive explanations.
+<a href="media/QBANK_BUILT_IN_WSI_VIEWER.mp4"><img src="media/QBANK_BUILT_IN_WSI_VIEWER_poster.png" width="760" alt="Built-in WSI viewer demo — click to play" /></a>
 
-![Quiz layout](media/clean_layout.png)
+**▶ [Play the live WSI viewer demo (44s)](media/QBANK_BUILT_IN_WSI_VIEWER.mp4)**
 
-### Whole-slide image integration
-Embedded WSI viewing alongside questions for image-based reasoning.
+</div>
 
-![WSI integration](media/embedded_wsi_mockup.png)
+### Global search across the whole library
+A single search box spans questions, images, flashcards, notes, and explanations — find every place a concept appears without switching modules.
 
-### SlideLies — diagnostic reasoning as a game
-The AI generates a slide description; the learner decides whether it's accurate.
+![Global search](media/global_search.png)
 
-![SlideLies](media/SlideLies.png)
+### Lecture library with inline video
+Curated board-review lectures play right inside the app, organized by category, with notes and source links beside each video.
 
-### Slide preview & question templating
-![Slide preview](media/slide_preview.png)
+![Lecture library](media/lectures.png)
+
+### WHO Blue Books, built in
+The WHO Classification of Tumours (5th edition) is one click away — browse the official Blue Books without leaving the app for a browser.
+
+![WHO Blue Books integration](media/who_books.png)
+
+### Cell Counter — interactive blood-smear differentials
+Click cells on a smear to tag them; the counter keeps a running differential across the WBC, RBC, and platelet lines, with AI-assisted classification on demand.
+
+![Cell Counter](media/cell_counter.png)
 
 ---
 
